@@ -1,0 +1,1 @@
+execute at @e[type=marker,tag=common_loot_placer] run function backrooms:common_loot_rotator

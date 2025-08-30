@@ -1,0 +1,2 @@
+execute if score generation generation matches 1 run setblock ~ ~ ~ minecraft:air
+execute if score generation generation matches 1 run summon item_display ~ ~ ~ {width:1f,height:1f,Tags:["weird_chair"],item:{id:"refurbished_furniture:oak_chair",Count:1b}}

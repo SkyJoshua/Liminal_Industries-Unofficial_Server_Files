@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+	"top": "kubejs:block/wall_destroyer_top",
+    "bottom": "kubejs:block/wall_destroyer_bottom",
+    "side": "kubejs:block/wall_destroyer_side"
+  }
+}

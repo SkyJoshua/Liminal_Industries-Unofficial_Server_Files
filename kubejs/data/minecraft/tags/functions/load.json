@@ -1,0 +1,7 @@
+{
+    "values":   [
+                    "backrooms:init",
+                    "backrooms:rng_setup",
+                    "backrooms:world_center"
+                ]
+}

@@ -1,0 +1,10 @@
+autoJump:false
+operatorItemsTab:false
+darkMojangStudiosBackground:false
+renderClouds:"false"
+incompatibleResourcePacks:[]
+narrator:0
+skipMultiplayerWarning:true
+skipRealms32bitWarning:true
+joinedFirstServer:true
+key_key.inventorysorter.sort:key.mouse.middle

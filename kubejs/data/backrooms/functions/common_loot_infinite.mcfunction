@@ -1,0 +1,1 @@
+function backrooms:common_loot_placer_random

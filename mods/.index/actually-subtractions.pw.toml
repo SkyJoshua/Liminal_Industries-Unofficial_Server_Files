@@ -1,0 +1,16 @@
+filename = 'ActuallySubtractions-1.20.1-1.2.14.14+mc1.20.1.jar'
+name = 'Actually Subtractions'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '770bd1299271f5f52f9c4f58ccdbb76ff0eb403c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6223947
+project-id = 1083685

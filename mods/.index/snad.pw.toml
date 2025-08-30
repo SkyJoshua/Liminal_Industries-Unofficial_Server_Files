@@ -1,0 +1,16 @@
+filename = 'Snad-20.1.0.jar'
+name = 'Snad'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '84c931e90770cd7ae90a4f2986f0fd3805c60a34'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5432114
+project-id = 241344

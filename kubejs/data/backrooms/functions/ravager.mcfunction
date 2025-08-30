@@ -1,0 +1,2 @@
+execute if score generation generation matches 1 run setblock ~ ~ ~ air
+execute if score generation generation matches 1 run summon ravager ~ ~ ~ {PersistenceRequired:1b,DeathLootTable:"minecraft:empty",Health:100f,Attributes:[{Name:generic.max_health,Base:100}]}

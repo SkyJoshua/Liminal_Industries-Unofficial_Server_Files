@@ -1,0 +1,1 @@
+execute at @p run summon marker ~ ~5.5 ~ {Tags:["light"]}

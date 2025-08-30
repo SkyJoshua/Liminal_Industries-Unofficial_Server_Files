@@ -1,0 +1,1 @@
+execute at @e[type=marker] run particle flame ~ ~ ~ 0 0 0 0 10 force

@@ -1,0 +1,15 @@
+{
+   "loader": "fusion:model",
+   "type": "connecting",
+   "connections": [
+      {
+         "type": "is_face_visible"
+      }
+   ],
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "kubejs:block/red_carpet",
+    "bottom": "kubejs:block/ceilling2",
+    "side": "kubejs:block/connected_wallpaper5"
+  }
+}

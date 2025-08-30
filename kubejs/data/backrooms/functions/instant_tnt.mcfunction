@@ -1,0 +1,2 @@
+#execute at @e[type=immersiveengineering:explosive] run summon fireball ~ ~ ~ {ExplosionPower:5b,power:[0.0,-100.0,0.0],Item:{id:"minecraft:tnt",Count:1b}}
+#execute at @e[type=immersiveengineering:explosive] run kill @e[type=immersiveengineering:explosive,limit=1,sort=nearest]

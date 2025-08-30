@@ -1,0 +1,1 @@
+execute as @e[type=item,tag=!clunked,nbt={OnGround:1b,Item: {id: "immersiveengineering:stick_steel"}}] at @s run function backrooms:metal_pipe_sound

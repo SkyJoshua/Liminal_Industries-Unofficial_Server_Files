@@ -1,0 +1,1 @@
+kill @e[type=marker,limit=1,sort=nearest]

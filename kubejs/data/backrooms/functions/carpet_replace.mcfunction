@@ -1,0 +1,1 @@
+execute unless block ~ ~1 ~ kubejs:wallpaper1 if block ~1 ~ ~ #kubejs:backrooms_enviroment if block ~-1 ~ ~ #kubejs:backrooms_enviroment if block ~ ~ ~1 #kubejs:backrooms_enviroment if block ~ ~ ~-1 #kubejs:backrooms_enviroment run setblock ~ ~ ~ kubejs:carpet

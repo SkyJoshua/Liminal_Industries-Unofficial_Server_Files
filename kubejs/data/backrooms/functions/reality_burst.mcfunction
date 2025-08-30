@@ -1,0 +1,3 @@
+execute at @e[type=marker,name=reality_core,limit=1,sort=nearest] run playsound minecraft:ambient.nether_wastes.mood master @a ~ ~ ~ 10 2
+execute at @e[type=marker,name=reality_core,limit=1,sort=nearest] run particle minecraft:dust_color_transition 0 1 1 5 0 0.3 1 ~ ~ ~ 0.3 0.3 0.3 0.1 5 force
+execute at @e[type=marker,name=reality_core,limit=1,sort=nearest] run particle minecraft:flash ~ ~ ~ 0 0 0 0 1 force

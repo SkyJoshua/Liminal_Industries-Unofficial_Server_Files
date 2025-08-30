@@ -1,0 +1,1 @@
+#execute at @e[type=marker,tag=world_center] run tp @a[distance=..100] -1000 23 -1000

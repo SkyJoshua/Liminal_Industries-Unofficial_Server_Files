@@ -1,0 +1,87 @@
+{
+  "name": "backrooms:book_pile",
+  "fallback": "minecraft:empty",
+  "elements": [
+      {
+          "element": {
+              "projection": "rigid",
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "backrooms:small_bookpile",
+              "processors": "minecraft:empty"
+          },
+          "weight": 1
+      },
+            {
+          "element": {
+              "projection": "rigid",
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "backrooms:small_bookpile_2",
+              "processors": "minecraft:empty"
+          },
+          "weight": 1
+      },
+      {
+          "element": {
+              "projection": "rigid",
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "backrooms:medium_bookpile",
+              "processors": "minecraft:empty"
+          },
+          "weight": 1
+      },
+            {
+          "element": {
+              "projection": "rigid",
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "backrooms:medium_bookpile_2",
+              "processors": "minecraft:empty"
+          },
+          "weight": 1
+      },
+      {
+          "element": {
+              "projection": "rigid",
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "backrooms:large_bookpile",
+              "processors": "minecraft:empty"
+          },
+          "weight": 1
+      },
+      {
+          "element": {
+              "projection": "rigid",
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "backrooms:large_bookpile_2",
+              "processors": "minecraft:empty"
+          },
+          "weight": 1
+      },
+      {
+          "element": {
+              "projection": "rigid",
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "backrooms:large_bookpile_3",
+              "processors": "minecraft:empty"
+          },
+          "weight": 1
+      },
+      {
+        "element": {
+            "projection": "rigid",
+            "element_type": "minecraft:legacy_single_pool_element",
+            "location": "backrooms:large_bookpile_4",
+            "processors": "minecraft:empty"
+        },
+        "weight": 1
+    },
+    {
+        "element": {
+            "projection": "rigid",
+            "element_type": "minecraft:legacy_single_pool_element",
+            "location": "backrooms:lost_bookpile",
+            "processors": "minecraft:empty"
+        },
+        "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+execute as @a[gamemode=survival] at @s if block ~ ~ ~ kubejs:carpet run tp @s ~ ~0.5 ~

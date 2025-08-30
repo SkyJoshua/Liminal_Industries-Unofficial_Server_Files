@@ -1,0 +1,59 @@
+{
+   "loader": "fusion:model",
+   "type": "connecting",
+   "connections": [
+      {
+         "type": "is_same_block"
+      },
+      {
+          "type": "match_block",
+          "block": "kubejs:stripped_wallpaper"
+      },
+      {
+          "type": "match_block",
+          "block": "kubejs:wallpaper1"
+      },
+      {
+          "type": "match_block",
+          "block": "kubejs:wallpaper2"
+      },
+      {
+          "type": "match_block",
+          "block": "kubejs:wallpaper3"
+      },
+      {
+          "type": "match_block",
+          "block": "kubejs:wallpaper4"
+      },
+      {
+          "type": "match_block",
+          "block": "kubejs:wallpaper5"
+      },
+      {
+          "type": "match_block",
+          "block": "kubejs:wallpaper6"
+      },
+      {
+          "type": "match_block",
+          "block": "kubejs:wallpaper_soft"
+      },
+      {
+          "type": "match_block",
+          "block": "kubejs:wallpaper_fake"
+      },
+      {
+          "type": "match_block",
+          "block": "kubejs:porous_stone"
+      },
+      {
+          "type": "match_block",
+          "block": "minecraft:sculk"
+      }
+   ],
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "kubejs:block/carpet",
+    "bottom": "kubejs:block/ceilling",
+    "side": "kubejs:block/connected_wallpaper1"
+  }
+}

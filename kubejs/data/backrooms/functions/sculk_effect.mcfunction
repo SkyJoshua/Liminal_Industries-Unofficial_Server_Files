@@ -1,0 +1,2 @@
+execute at @a if block ~ ~-1 ~ minecraft:sculk run effect give @a[sort=nearest,limit=1,gamemode=survival] minecraft:darkness 3 0 true
+execute at @a if block ~ ~-1 ~ minecraft:sculk run particle minecraft:sculk_charge 0 ~ ~0.5 ~ 0.5 0 0.5 0 1

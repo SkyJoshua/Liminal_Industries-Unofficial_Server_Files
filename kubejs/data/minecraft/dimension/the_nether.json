@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:the_nether",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "backrooms:checkered_plane",
+      "layers": [
+        {
+          "block": "kubejs:red_carpet",
+          "height": 1
+        },
+        {
+          "block": "supplementaries:checker_block",
+          "height": 1
+        }
+      ],
+      "structure_overrides": "backrooms:piles"
+    }
+  }
+}

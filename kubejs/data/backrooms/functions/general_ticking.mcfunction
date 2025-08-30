@@ -1,0 +1,1 @@
+#execute at @e[type=marker,name=frame_detector] run particle campfire_signal_smoke ~ ~ ~ 1 1 1 0 1 force

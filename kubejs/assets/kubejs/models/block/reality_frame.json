@@ -1,0 +1,23 @@
+{
+   "loader": "fusion:model",
+   "type": "connecting",
+   "connections": [
+      {
+         "type": "is_same_block"
+      },
+      {
+          "type": "match_block",
+          "block": "kubejs:reality_controller"
+      },
+      {
+          "type": "match_block",
+          "block": "kubejs:reality_controller_running"
+      }
+   ],
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "kubejs:block/reality_frame",
+    "bottom": "kubejs:block/reality_frame",
+    "side": "kubejs:block/reality_frame"
+  }
+}

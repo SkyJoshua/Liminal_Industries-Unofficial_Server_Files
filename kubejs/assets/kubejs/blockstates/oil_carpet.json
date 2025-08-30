@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "": [{
+      "model": "kubejs:block/oil_carpet1", "weight": 10
+    },
+    {
+      "model": "kubejs:block/oil_carpet2", "weight": 10
+    },
+    {
+      "model": "kubejs:block/oil_carpet3", "weight": 10
+    },
+    {
+      "model": "kubejs:block/oil_carpet4", "weight": 10
+    },
+    {
+      "model": "kubejs:block/oil_carpet5", "weight": 10
+    },
+    {
+      "model": "kubejs:block/oil_carpet6", "weight": 10
+    },
+    {
+      "model": "kubejs:block/oil_carpet7", "weight": 10
+    },
+    {
+      "model": "kubejs:block/oil_carpet8", "weight": 10
+    }]
+  }
+}

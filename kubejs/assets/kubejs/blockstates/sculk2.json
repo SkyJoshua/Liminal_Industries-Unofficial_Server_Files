@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "": [{
+      "model": "minecraft:block/sculk", "weight": 2
+    },
+    {
+      "model": "kubejs:block/sculk0", "weight": 1
+    },
+    {
+      "model": "kubejs:block/sculk1", "weight": 1
+    },
+    {
+      "model": "kubejs:block/sculk2", "weight": 1
+    },
+    {
+      "model": "kubejs:block/sculk3", "weight": 1
+    },
+    {
+      "model": "kubejs:block/sculk4", "weight": 1
+    },
+    {
+      "model": "kubejs:block/sculk5", "weight": 1
+    }]
+  }
+}

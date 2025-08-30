@@ -1,0 +1,16 @@
+filename = 'musketmod-1.20.1-forge-1.5.4.jar'
+name = "ewewukek's Musket Mod"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '44ed6aa820e86e9802ad917d4eddda5877982e5a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5805565
+project-id = 354562

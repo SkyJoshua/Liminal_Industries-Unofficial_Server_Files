@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:overworld",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "backrooms:the_backrooms",
+        "lakes": false,
+        "features": false,
+        "layers": [
+          {
+            "block": "minecraft:air",
+            "height": 47
+          },
+          {
+            "block": "minecraft:barrier",
+            "height": 1
+          },
+          {
+            "block": "minecraft:air",
+            "height": 16
+          }
+        ],
+        "structure_overrides": []
+      }
+    }
+  }

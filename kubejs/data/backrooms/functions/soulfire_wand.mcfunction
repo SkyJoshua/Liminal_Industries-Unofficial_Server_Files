@@ -1,0 +1,1 @@
+execute at @e[type=eidolon:soulfire_projectile] run function backrooms:soulfire_conversion

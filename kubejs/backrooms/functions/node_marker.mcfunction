@@ -1,0 +1,1 @@
+execute at @e[tag=room_node] run particle campfire_signal_smoke ~ ~ ~ 0 0 0 0 10 force

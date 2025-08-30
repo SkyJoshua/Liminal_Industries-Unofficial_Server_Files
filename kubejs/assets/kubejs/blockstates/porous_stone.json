@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "": [{
+      "model": "kubejs:block/porous_stone1", "weight": 10
+    },
+    {
+      "model": "kubejs:block/porous_stone2", "weight": 10
+    },
+    {
+      "model": "kubejs:block/porous_stone3", "weight": 10
+    },
+    {
+      "model": "kubejs:block/porous_stone4", "weight": 10
+    },
+    {
+      "model": "kubejs:block/porous_stone5", "weight": 10
+    }]
+  }
+}

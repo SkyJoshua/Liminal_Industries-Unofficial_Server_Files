@@ -1,0 +1,2 @@
+execute as @a at @s run execute if block ~ ~-0.5 ~ sculk run effect give @s minecraft:slowness 1 3 true
+execute as @a at @s run execute if block ~ ~-0.5 ~ sculk run effect give @s minecraft:jump_boost 1 128 true

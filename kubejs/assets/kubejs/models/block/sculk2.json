@@ -1,0 +1,65 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"1": "kubejs:block/sculk2",
+		"particle": "kubejs:block/sculk2",
+		"cross": "kubejs:block/sculk_grass"
+	},
+	"elements": [
+		{
+			"from": [0, 15.99, 3.31371],
+			"to": [0, 31.99, 19.31371],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 15], "texture": "#missing"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 0, 15], "texture": "#missing"},
+				"west": {"uv": [0, 1, 16, 16], "texture": "#cross"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [11.31371, 15.99, -8],
+			"to": [11.31371, 31.99, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 15], "texture": "#missing"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 0, 15], "texture": "#missing"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "sculk_tendrils",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "group",
+					"origin": [2, 0, -4],
+					"color": 0,
+					"children": [0, 1]
+				},
+				2
+			]
+		}
+	]
+}

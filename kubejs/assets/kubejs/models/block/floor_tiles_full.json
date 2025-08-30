@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "kubejs:block/floor_tiles/floor_tiles1",
+    "bottom": "kubejs:block/ceilling",
+    "side": "kubejs:block/floor_tiles/floor_tiles1"
+  }
+}

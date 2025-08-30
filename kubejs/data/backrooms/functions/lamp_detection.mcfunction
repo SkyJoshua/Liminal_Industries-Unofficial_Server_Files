@@ -1,0 +1,2 @@
+execute at @e[type=supplementaries:brick_projectile] if block ~ ~1 ~ kubejs:ceilling_lamp run function backrooms:lamp_destruction
+execute at @e[type=supplementaries:brick_projectile] if block ~ ~1 ~ kubejs:ceilling_lamp2 run function backrooms:lamp_destruction

@@ -1,0 +1,16 @@
+filename = 'escalated-1.1.0-create.6.0.6-mc.1.20.1-forge.jar'
+name = 'Create: Escalated'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '63fb74d5080e179d8bf7e62f385b70ec0c82d2b5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6663749
+project-id = 1260145

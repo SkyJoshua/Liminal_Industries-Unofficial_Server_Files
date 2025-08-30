@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "kubejs:block/reality_frame_cover",
+    "bottom": "kubejs:block/reality_frame_cover_top",
+    "side": "kubejs:block/reality_charge_empty"
+  }
+}

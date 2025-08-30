@@ -1,0 +1,29 @@
+{
+    "values":   [
+                    "backrooms:sculk_effect",
+                    "backrooms:sculk_death_step",
+                    "backrooms:lamp_detection",
+                    "backrooms:generation",
+                    "backrooms:weird_chair_glitch",
+                    "backrooms:instant_tnt",
+                    "backrooms:powerhouse_depower_step",
+                    "backrooms:respawn",
+                    "backrooms:new_player",
+                    "backrooms:out_of_bounds",
+                    "backrooms:ravager_effect",
+                    "backrooms:soulfire_wand",
+                    "backrooms:creeper_explosion",
+		            "backrooms:reality_frame_generation",
+		            "backrooms:sculk_slowness",
+		            "backrooms:pipe_placer_tick",
+		            "backrooms:lamp_restoration_tick",
+		            "backrooms:lamp_destruction_tick",
+                    "backrooms:soundrandom",
+                    "backrooms:metal_pipe",
+                    "backrooms:end",
+                    "backrooms:dragons",
+                    "backrooms:blackhole_ambient",
+                    "backrooms:zombified_piglin",
+                    "backrooms:noclip_fix"
+                ]
+}

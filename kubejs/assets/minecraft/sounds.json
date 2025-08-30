@@ -1,0 +1,28 @@
+{
+
+"custom.beep1": { "category": "master", "sounds": [ "custom/beep1" ] },
+"custom.beep2": { "category": "master", "sounds": [ "custom/beep2" ] },
+"custom.hum1": { "category": "master", "sounds": [ "custom/hum1" ] },
+"custom.hum2": { "category": "master", "sounds": [ "custom/hum2" ] },
+"custom.hum3": { "category": "master", "sounds": [ "custom/hum3" ] },
+"custom.hum4": { "category": "master", "sounds": [ "custom/hum4" ] },
+"custom.hum5": { "category": "master", "sounds": [ "custom/hum5" ] },
+"custom.hum6": { "category": "master", "sounds": [ "custom/hum6" ] },
+"custom.horror": { "category": "master", "sounds": [ "custom/horror" ] },
+"custom.infuser": { "category": "master", "sounds": [ "custom/infuser" ] },
+"custom.metal_pipe_close": { "category": "master", "sounds": [ "custom/metal_pipe_close" ] },
+"custom.metal_pipe_far": { "category": "master", "sounds": [ "custom/metal_pipe_far" ] },
+"custom.render": { "category": "master", "sounds": [ "custom/render" ] },
+"custom.train_horn": { "category": "master", "sounds": [ "custom/train_horn" ] },
+"custom.dripping": { "category": "master", "sounds": [ "custom/dripping" ] },
+"custom.party_horn": { "category": "master", "sounds": [ "custom/party_horn" ] },
+"custom.talking": { "category": "master", "sounds": [ "custom/talking" ] },
+"custom.fan": { "category": "master", "sounds": [ "custom/fan" ] },
+"custom.cave16": { "category": "master", "sounds": [ "custom/cave16" ] },
+"custom.highway": { "category": "master", "sounds": [ "custom/highway" ] },
+"custom.time_loop": { "category": "master", "sounds": [ "custom/time_loop" ] },
+"custom.greg": { "category": "master", "sounds": [ "custom/greg" ] },
+"custom.radio": { "category": "master", "sounds": [ "custom/radio" ] },
+"custom.ship_horn": { "category": "master", "sounds": [ "custom/ship_horn" ] }
+
+}

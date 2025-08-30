@@ -1,0 +1,1 @@
+data get entity @e[type=create:package,limit=1,sort=nearest] Box.tag.Items.Items[1].id

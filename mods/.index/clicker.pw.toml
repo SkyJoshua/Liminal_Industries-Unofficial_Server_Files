@@ -1,0 +1,16 @@
+filename = 'AutoClickerMod-1.6.jar'
+name = 'A-Clicker'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9521a9c16d468240a80a9435fe3d48fab17980e1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6671646
+project-id = 1246632

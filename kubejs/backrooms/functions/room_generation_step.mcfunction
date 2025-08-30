@@ -1,0 +1,1 @@
+#execute at @e[tag=room_node] run

@@ -1,0 +1,1 @@
+execute as @e[type=zombified_piglin] at @s run tp @s ~ ~-50 ~

@@ -1,0 +1,34 @@
+{
+    "type": "backrooms:void",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "backrooms:nowhere",
+        "lakes": false,
+        "features": false,
+        "layers": [
+          {
+            "block": "kubejs:wallpaper1",
+            "height": 64
+          },
+          {
+            "block": "kubejs:carpet",
+            "height": 1
+          },
+          {
+            "block": "minecraft:air",
+            "height": 5
+          },
+          {
+            "block": "kubejs:ceilling",
+            "height": 1
+          },
+          {
+            "block": "kubejs:wallpaper1",
+            "height": 312
+          }
+        ],
+        "structure_overrides": []
+      }
+    }
+  }
