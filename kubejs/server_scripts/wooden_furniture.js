@@ -14,6 +14,10 @@ ServerEvents.recipes(event => {
 	breaking('2x minecraft:warped_planks', '#backrooms:warped_furniture')
 	breaking('2x minecraft:crimson_planks', '#backrooms:crimson_furniture')
 
+	breaking('2x minecraft:oak_planks', 'lipoolroomsadditions:oak_pool_chair')
+	breaking('2x minecraft:oak_planks', 'lipoolroomsadditions:white_painted_oak_pool_chair')
+	breaking('2x immersiveengineering:treated_wood_horizontal', 'lipoolroomsadditions:oil_treated_oak_pool_chair')
+
 
 
 	let chopping = (output, input) => {
@@ -38,6 +42,12 @@ ServerEvents.recipes(event => {
 	chopping('6x minecraft:warped_planks', '#backrooms:warped_furniture')
 	chopping('6x minecraft:crimson_planks', '#backrooms:crimson_furniture')
 
+	chopping('6x minecraft:oak_planks', 'lipoolroomsadditions:oak_pool_chair')
+	chopping('6x minecraft:oak_planks', 'lipoolroomsadditions:white_painted_oak_pool_chair')
+	chopping('6x immersiveengineering:treated_wood_horizontal', 'lipoolroomsadditions:oil_treated_oak_pool_chair')
+
+
+
 	let cutting = (output, input) => {
 		event.recipes.create.cutting(
 			[
@@ -57,6 +67,12 @@ ServerEvents.recipes(event => {
 	cutting('10x minecraft:cherry_planks', '#backrooms:cherry_furniture')
 	cutting('10x minecraft:warped_planks', '#backrooms:warped_furniture')
 	cutting('10x minecraft:crimson_planks', '#backrooms:crimson_furniture')
+
+	cutting('10x minecraft:oak_planks', 'lipoolroomsadditions:oak_pool_chair')
+	cutting('10x minecraft:oak_planks', 'lipoolroomsadditions:white_painted_oak_pool_chair')
+	cutting('10x immersiveengineering:treated_wood_horizontal', 'lipoolroomsadditions:oil_treated_oak_pool_chair')
+
+
 
 	event.shapeless("minecraft:brown_wool", ["refurbished_furniture:brown_sofa"])
 	event.shapeless("minecraft:brown_wool", ["refurbished_furniture:brown_stool"])

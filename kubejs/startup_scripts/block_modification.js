@@ -13,8 +13,24 @@ BlockEvents.modification(event => {
 		block.destroySpeed = -1.0
 	})
 
+	event.modify('blockofsky:sky_block', block => {
+		block.explosionResistance = 10000.0
+		block.destroySpeed = -1.0
+	})
+
+	event.modify('antiblocksrechiseled:bright_black', block => {
+		block.explosionResistance = 10000.0
+		block.destroySpeed = -1.0
+	})
+
+	event.modify('antiblocksrechiseled:bright_white', block => {
+		block.explosionResistance = 10000.0
+		block.destroySpeed = -1.0
+	})
+
 	event.modify('antiblocksrechiseled:bright_cyan', block => {
-		block.hasCollision = false
+		block.explosionResistance = 10000.0
+		block.destroySpeed = -1.0
 	})
 
 })

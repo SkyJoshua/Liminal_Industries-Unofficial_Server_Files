@@ -39,10 +39,6 @@
       },
       {
           "type": "match_block",
-          "block": "kubejs:wallpaper_fake"
-      },
-      {
-          "type": "match_block",
           "block": "kubejs:porous_stone"
       },
       {

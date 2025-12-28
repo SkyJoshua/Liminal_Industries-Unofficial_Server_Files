@@ -344,6 +344,15 @@ event.custom({
 				"hide": "true"
 			},
 			{
+				"type": "execute",
+				"command": "execute if block ~ ~1 ~ minecraft:air run function backrooms:poolrooms_drain",
+				"hide": "true",
+				"contextual": {
+				"type": "chance",
+				"chance": 0.05
+				}
+			},
+			{
 				"type": "damage_item"
 			}
 		]

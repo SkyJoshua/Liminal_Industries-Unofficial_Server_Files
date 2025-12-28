@@ -1,0 +1,16 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 14482431,
+    "fog_color": 13891576,
+    "water_color": 7595007,
+    "water_fog_color": 336435,
+    "ambient_sound": "minecraft:ambient.underwater.loop"
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

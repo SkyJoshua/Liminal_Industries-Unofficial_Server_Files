@@ -208,6 +208,12 @@ ServerEvents.recipes(event => {
 	)
 
 	melting(
+		'kubejs:pool_tile_golden', 
+		'tconstruct:molten_gold', 
+		90
+	)
+
+	melting(
 		'refurbished_furniture:light_electricity_generator', 
 		'tconstruct:molten_gold', 
 		900

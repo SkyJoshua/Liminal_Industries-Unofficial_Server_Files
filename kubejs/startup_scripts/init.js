@@ -98,6 +98,7 @@ StartupEvents.registry('block', event => {
 		.soundType("deepslate")
 		.unbreakable()
 		.waterlogged()
+		.noDrops()
 
 	event.create('long_pool_tiles').displayName('Pool Tiles')
 		.fullBlock(true)
@@ -125,6 +126,7 @@ StartupEvents.registry('block', event => {
 		.soundType("deepslate")
 		.unbreakable()
 		.waterlogged()
+		.noDrops()
     
     event.create('pool_locker_single').displayName('Pool Locker')
         .soundType("metal")
@@ -188,6 +190,7 @@ StartupEvents.registry('block', event => {
 		.soundType("cherry_wood")
 		.unbreakable()
 		.waterlogged()
+		.noDrops()
 
 	event.create('ceilling_lamp').displayName('Ceiling Lamp')
 		.unbreakable()
@@ -281,6 +284,32 @@ StartupEvents.registry('block', event => {
 		.material("lantern")
 		.soundType("lantern")
 		.unbreakable()
+		.fullBlock(false)
+		.waterlogged()
+		.box(0, 0, 0, 16, 15, 16)
+
+
+	event.create('drain_breakable').displayName('Drain')
+		.fullBlock(true)
+		.material("lantern")
+		.soundType("lantern")
+		.unbreakable()
+		.fullBlock(false)
+		.waterlogged()
+		.box(0, 0, 0, 16, 15, 16)
+		.model('kubejs:block/drain')
+		.property(BlockProperties.AGE_3)
+		.randomTick(tick => {
+    const block = tick.block
+	const properties = block.properties
+	const age = Number(properties.age)
+	    if (age == 3) {
+      		block.set('kubejs:carpet')
+		} else {
+        	block.set(block.getId(), {
+          	age: `${age+1}`
+        })
+	}})
 
 	event.create('floor_tiles').displayName('Floor Tiles')
 		.fullBlock(false)
@@ -301,6 +330,15 @@ StartupEvents.registry('block', event => {
           	age: `${age+1}`
         })
 	}})
+
+	event.create('floor_tiles_infinite').displayName('Floor Tiles')
+		.model('kubejs:block/floor_tiles')
+		.fullBlock(false)
+		.material("stone")
+		.soundType("stone")
+		.unbreakable()
+		.fullBlock(false)
+		.box(0, 0, 0, 16, 15, 16)
 
 	event.create('floor_tiles_full').displayName('Floor Tiles')
 		.fullBlock(false)
@@ -572,6 +610,7 @@ event.create("power_house").displayName("Power House")
 		.unbreakable()
 		.fullBlock(false)
 		.opaque(false)
+		.noDrops()
 
 	event.create('sculk_shroom').displayName('Sculk Shroom')
 		.material("sculk")
@@ -781,7 +820,7 @@ event.create("power_house").displayName("Power House")
 		.tagBlock('minecraft:mineable/pickaxe')
 
 	event.create('lost_eye').displayName('Lost Eye')
-		.fullBlock(true)
+		.fullBlock(false)
 		.material("stone")
 		.soundType("shroomlight")
 		.box (4, 0, 4, 12, 8, 12)
@@ -790,6 +829,22 @@ event.create("power_house").displayName("Power House")
 			  parent: 'minecraft:item/generated',
 			  textures: {
 				layer0: `endrem:item/lost_eye`,
+			  },
+			})
+		)
+
+	event.create('exotic_eye').displayName('Exotic Eye')
+		.fullBlock(false)
+		.material("stone")
+		.soundType("shroomlight")
+		.box (4, 0, 4, 12, 8, 12)
+		.renderType("cutout")
+		.opaque(false)
+		.item(item => 
+			item.modelJson({
+			  parent: 'minecraft:item/generated',
+			  textures: {
+				layer0: `endrem:item/exotic_eye`,
 			  },
 			})
 		)
@@ -824,6 +879,7 @@ StartupEvents.registry('item', event => {
 	event.create('ai').displayName('Artificial Intelligence')
 	event.create('quantum_string').displayName('Quantum String')
 	event.create('cobblestone_bucket').displayName('Bucket of Cobblestone')
+	event.create('crowbar').displayName('Crowbar')
 
 	event.create('reality_storage_empty').displayName('Empty Reality Storage Cell')
 	event.create('reality_storage_cell1').displayName('Reality Storage Cell')

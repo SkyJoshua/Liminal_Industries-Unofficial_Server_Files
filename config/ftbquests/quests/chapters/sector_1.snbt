@@ -412,9 +412,9 @@
 		{
 			dependencies: ["7FAC527C8C32346A"]
 			description: [
-				"You might have found out about the carpet inhabitants by now. The eggs they drop are a good source of proteine."
+				"You might have found out about the carpet inhabitants by now. The eggs they drop are a good source of protein."
 				""
-				"Killing them with a knife will drop additional eggs."
+				"&lKilling them with a knife will drop additional eggs."
 				""
 				"They have an aquired taste, however..."
 			]

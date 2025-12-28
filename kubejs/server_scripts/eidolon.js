@@ -391,27 +391,6 @@ ServerEvents.recipes(event => {
     })
   }
 
-event.custom({
-  "type": "eidolon:crucible",
-  "steps": [
-    {
-      "items": [
-        { "item": "thermal:sulfur_dust" }
-      ]
-    },
-    {
-      "stirs": 2,
-      "items": [
-        { "item": "minecraft:blue_dye" }
-      ]
-    }
-  ],
-  "result": {
-    "item": "minecraft:lapis_lazuli",
-    "count": 5
-  }
-})
-
 event.remove({id: 'eidolon:sulfur'})
 event.custom({
   "type": "eidolon:crucible",

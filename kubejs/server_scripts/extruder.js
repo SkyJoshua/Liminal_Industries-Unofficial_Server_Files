@@ -50,10 +50,30 @@ ServerEvents.recipes(event => {
     )
 
     event.remove({id: 'create:splashing/crushed_raw_gold'})
-    //rock_gen('create:ochrum', 
-    //    'create:rose_quartz_block', 
-    //    'kubejs:red_carpet'
-    //)
+    rock_gen('kubejs:pool_tile_golden', 
+        'botania:alchemy_catalyst', 
+        'kubejs:pool_tiles_golden'
+    )
+
+    rock_gen('kubejs:pool_tile_golden', 
+        'botania:alchemy_catalyst', 
+        'kubejs:pool_tiles_golden_half'
+    )
+
+    rock_gen('minecraft:lapis_lazuli',
+        'minecraft:prismarine', 
+        'kubejs:pool_tiles'
+    )
+
+    rock_gen('immersiveengineering:raw_aluminum',
+        'minecraft:water', 
+        'kubejs:missing_tiles_empty'
+    )
+
+    rock_gen('immersiveengineering:raw_aluminum',
+        'minecraft:water', 
+        'kubejs:missing_tiles_half'
+    )
 
 })
 

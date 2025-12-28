@@ -1,0 +1,11 @@
+execute as @e[type=minecraft:marker,tag=room_node] at @s if entity @s in backrooms:poolrooms if entity @p[distance=..100] unless block ~24 ~-3 ~ air if block ~22 ~-3 ~ water if block ~23 ~-2 ~ air positioned ~23 ~-3 ~ run fill ~ ~ ~-1 ~ ~ ~1 water
+execute as @e[type=minecraft:marker,tag=room_node] at @s if entity @s in backrooms:poolrooms if entity @p[distance=..100] unless block ~-24 ~-3 ~ air if block ~-22 ~-3 ~ water if block ~-23 ~-2 ~ air positioned ~-23 ~-3 ~ run fill ~ ~ ~-1 ~ ~ ~1 water
+execute as @e[type=minecraft:marker,tag=room_node] at @s if entity @s in backrooms:poolrooms if entity @p[distance=..100] unless block ~ ~-3 ~24 air if block ~ ~-3 ~22 water if block ~ ~-2 ~23 air positioned ~ ~-3 ~23 run fill ~-1 ~ ~ ~1 ~ ~ water
+execute as @e[type=minecraft:marker,tag=room_node] at @s if entity @s in backrooms:poolrooms if entity @p[distance=..100] unless block ~ ~-3 ~-24 air if block ~ ~-3 ~-22 water if block ~ ~-2 ~-23 air positioned ~ ~-3 ~-23 run fill ~-1 ~ ~ ~1 ~ ~ water
+
+execute as @e[type=minecraft:marker,tag=room_node] at @s if entity @s in backrooms:poolrooms if entity @p[distance=..100] if block ~24 ~-3 ~ air positioned ~23 ~-23 ~-23 run function backrooms:sector_poolrooms
+execute as @e[type=minecraft:marker,tag=room_node] at @s if entity @s in backrooms:poolrooms if entity @p[distance=..100] if block ~-24 ~-3 ~ air positioned ~-69 ~-23 ~-23 run function backrooms:sector_poolrooms
+execute as @e[type=minecraft:marker,tag=room_node] at @s if entity @s in backrooms:poolrooms if entity @p[distance=..100] if block ~ ~-3 ~24 air positioned ~-23 ~-23 ~23 run function backrooms:sector_poolrooms
+execute as @e[type=minecraft:marker,tag=room_node] at @s if entity @s in backrooms:poolrooms if entity @p[distance=..100] if block ~ ~-3 ~-24 air positioned ~-23 ~-23 ~-69 run function backrooms:sector_poolrooms
+
+execute at @e[type=minecraft:marker,tag=room_node] unless block ~24 ~-3 ~ air unless block ~-24 ~-3 ~ air unless block ~ ~-3 ~24 air unless block ~ ~-3 ~-24 air run kill @e[type=minecraft:marker,tag=room_node,sort=nearest,limit=1]

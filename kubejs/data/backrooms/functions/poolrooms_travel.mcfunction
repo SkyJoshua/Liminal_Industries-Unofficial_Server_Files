@@ -1,0 +1,1 @@
+execute as @a[distance=..3] at as run function backrooms:poolrooms_enter

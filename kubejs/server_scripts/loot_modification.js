@@ -61,6 +61,11 @@ event
     .addBlockLootModifier("kubejs:lost_eye")
     .replaceLoot("kubejs:lost_eye", "endrem:lost_eye");
 
+event
+    .addBlockLootModifier("kubejs:exotic_eye")
+    .replaceLoot("kubejs:exotic_eye", "endrem:exotic_eye");
+
+
 let traffic_drops = (id) => {
 event
     .addBlockLootModifier(id)
@@ -90,5 +95,13 @@ traffic_drops("kubejs:witahdigroi_sign")
 traffic_drops("kubejs:tripple_sign")
 traffic_drops("kubejs:turn_back_sign")
 traffic_drops("kubejs:inkblod_sign")
+
+//Poolrooms Railings
+traffic_drops("lipoolroomsadditions:pool_railing_mid_i")
+traffic_drops("lipoolroomsadditions:pool_railing_mid_t")
+traffic_drops("lipoolroomsadditions:pool_railing_end_l")
+traffic_drops("lipoolroomsadditions:pool_railing_end_r")
+traffic_drops("lipoolroomsadditions:pool_railing_bend_inner")
+traffic_drops("lipoolroomsadditions:pool_railing_bend_outer")
  
 });

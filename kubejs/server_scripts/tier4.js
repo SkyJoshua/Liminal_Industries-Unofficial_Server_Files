@@ -192,7 +192,6 @@ ServerEvents.recipes(event => {
 
 	event.recipes.createCrushing([
  		Item.of('create:crushed_raw_iron').withChance(0.4),
-	 	Item.of('immersiveengineering:raw_aluminum').withChance(0.02),
 	], 'create:crimsite')
 
 })

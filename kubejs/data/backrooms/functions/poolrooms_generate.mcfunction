@@ -1,0 +1,1 @@
+place template backrooms:starting_pool -23 24 -23

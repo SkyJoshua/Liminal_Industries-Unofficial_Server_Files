@@ -4,6 +4,7 @@ ServerEvents.tags('block', event => {
 
 	event.add('kubejs:unbreakable', '#kubejs:block_sculk')
 	event.add('kubejs:unbreakable', /^.*antiblock.*/)
+	event.add('kubejs:unbreakable', 'blockofsky:sky_block')
 
 	event.add('kubejs:ravager_blacklist', '#kubejs:unbreakable')
 

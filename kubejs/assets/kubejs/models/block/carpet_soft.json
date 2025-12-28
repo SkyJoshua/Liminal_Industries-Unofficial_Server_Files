@@ -3,6 +3,6 @@
   "textures": {
     "top": "kubejs:block/carpet",
     "bottom": "kubejs:block/ceilling",
-    "side": "kubejs:block/carpet"
+    "side": "kubejs:block/carpet_warn"
   }
 }

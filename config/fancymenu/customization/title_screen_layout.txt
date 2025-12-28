@@ -13,7 +13,8 @@ layout-meta {
 }
 
 customization {
-  action = autoscale
+  action = setscale
+  scale = 4.0
 }
 
 customization {

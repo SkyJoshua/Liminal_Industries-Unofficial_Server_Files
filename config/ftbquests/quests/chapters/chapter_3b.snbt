@@ -1,0 +1,373 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3b"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:pool_tiles"
+	id: "7DB48A00641BCBE1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["62905CF8D9082304"]
+			icon: "kubejs:pool_tiles"
+			id: "56A5BCD5589DA06C"
+			size: 2.0d
+			tasks: [{
+				dimension: "backrooms:poolrooms"
+				id: "28C53194A1B5A41C"
+				type: "dimension"
+			}]
+			title: "Plunge into the Poolrooms"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56A5BCD5589DA06C"]
+			description: [
+				"Golden Tiles can be automated in the Poolrooms. You can melt them in a furnace for one nugget of gold."
+				""
+				"Alternatively, you can also drop them into the smeltery for a higher yield."
+			]
+			icon: "kubejs:pool_tile_golden"
+			id: "43F641A648AB6462"
+			rewards: [
+				{
+					id: "5519BA5380CD9730"
+					item: "kubejs:party_popper"
+					type: "item"
+				}
+				{
+					id: "30B18A0803072685"
+					item: "supplementaries:confetti_popper"
+					type: "item"
+				}
+			]
+			subtitle: "Not all that Glitters"
+			tasks: [
+				{
+					id: "7D02DE37E9FC63CA"
+					item: "thermal:device_rock_gen"
+					type: "item"
+				}
+				{
+					id: "6A63C84435F0AA2F"
+					item: "botania:alchemy_catalyst"
+					type: "item"
+				}
+				{
+					id: "133BC0C3AB0C4757"
+					item: "kubejs:pool_tile_golden"
+					type: "item"
+				}
+				{
+					id: "065FF306F9174614"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+			]
+			title: "Renewable Gold"
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4747407A1597CC43"]
+			description: ["You can now automate Aluminium by placing the extruder on a block of Missing Pool Tiles "]
+			hide_until_deps_complete: false
+			icon: "immersiveengineering:raw_aluminum"
+			id: "6574AC14E194C4B2"
+			rewards: [{
+				id: "7299CD9E15B3524B"
+				item: "kubejs:party_popper"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4A4B4B9E54887680"
+					item: "thermal:device_rock_gen"
+					type: "item"
+				}
+				{
+					id: "369158725F596C22"
+					item: "botania:alchemy_catalyst"
+					type: "item"
+				}
+				{
+					id: "21017909594FAFDD"
+					item: "immersiveengineering:raw_aluminum"
+					type: "item"
+				}
+			]
+			title: "Renewable Aluminium"
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["56A5BCD5589DA06C"]
+			description: [
+				"Both an Inscriber and a Multiservo Press can be found in abandoned places within the poolrooms."
+				""
+				"This will allow you to access most of the high-tech ae2 equipment a lot earlier."
+			]
+			icon: "thermal:machine_press"
+			id: "4031B05B7C01ED53"
+			rewards: [{
+				id: "462B2A18A06597FE"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: "thermal:machine_press"
+					id: "05FD0ACC1AA24CF3"
+					item: "thermal:machine_press"
+					type: "item"
+				}
+				{
+					id: "6FF8DB9F3AE5C190"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+			]
+			title: "The Abandoned Press"
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["56A5BCD5589DA06C"]
+			description: [
+				"The Exotic Eye can be found somewhere in the Poolrooms looking at endless Pool Tiles and surrounded by guardians."
+				""
+				""
+				"{image:kubejs:textures/quests/poolrooms_eye.png width:192 height:108 align:center}"
+			]
+			id: "66819437F5CE0687"
+			rewards: [
+				{
+					id: "2CCAA9C257339B93"
+					item: "plushie_buddies:plushie_guardian"
+					type: "item"
+				}
+				{
+					id: "5316747E39760A3B"
+					item: "kubejs:party_popper"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Where is Atlantis?"
+			tasks: [{
+				id: "4E1B584CCB4E2E3A"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["56A5BCD5589DA06C"]
+			description: ["You can find an abandoned ME Controller somewhere in these poolrooms."]
+			id: "50E3D647F079552E"
+			rewards: [{
+				count: 3
+				id: "71B78C9618FDEAA2"
+				item: "kubejs:party_popper"
+				type: "item"
+			}]
+			subtitle: "The Ultimate Prize"
+			tasks: [{
+				id: "6C4AA45E3AE7E727"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "Early ME Controller"
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["56A5BCD5589DA06C"]
+			description: [
+				"The Kekimurus can be found somewhere in the poolrooms. "
+				""
+				"This advanced flower can help you to generate mana a whole lot faster as long as you can provide it with sufficient amounts of cake."
+			]
+			id: "24C4318902D9657F"
+			rewards: [
+				{
+					id: "1735241F51662493"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "674D5E79F944B6B3"
+					item: "supplementaries:confetti_popper"
+					type: "item"
+				}
+			]
+			subtitle: "Not a lie, I promise"
+			tasks: [{
+				id: "4D73E036FA0A73BF"
+				item: "botania:kekimurus"
+				type: "item"
+			}]
+			title: "Finding the Kekimurus"
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["56A5BCD5589DA06C"]
+			description: [
+				"Pool Tiles can be broken off the wall using any pickaxe. "
+				""
+				"After crushing them they have a chance to break down into regular quartz."
+			]
+			icon: "kubejs:pool_tile"
+			id: "4747407A1597CC43"
+			rewards: [{
+				id: "196BD53F229B4E77"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			subtitle: "Ah, a new place to destroy"
+			tasks: [
+				{
+					id: "7A1107C160F2CC21"
+					item: "kubejs:pool_tile"
+					type: "item"
+				}
+				{
+					id: "4CF79174489E081B"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			title: "Obtaining Pool Tiles "
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["56A5BCD5589DA06C"]
+			dependency_requirement: "one_started"
+			description: [
+				"You should be able to make it back to the Backrooms after finding the Poolrooms exit room."
+				""
+				"You can recognize this room by to huge dark hole in the middle leading to seemingly nowhere."
+				""
+				"After jumping in you should be reunited with your beloved carpet and wallpaper."
+				""
+				""
+				"{image:kubejs:textures/quests/poolrooms_exit.png width:192 height:108 align:center}"
+			]
+			icon: "kubejs:drain"
+			id: "25DBA9EE127F3CE4"
+			rewards: [
+				{
+					id: "173ACAA79AF83A49"
+					item: "plushie_buddies:plushie_drowned"
+					type: "item"
+				}
+				{
+					id: "746FA64488B54FEF"
+					item: "kubejs:party_popper"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "I Miss the Smell of Carpet"
+			title: "Finding an Exit"
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["020AD5745CA5C81F"]
+			description: [
+				"The Wall Piercer can be used to destroy the near-indestructible walls of the backrooms."
+				""
+				"Simply place a Wall Piercer on either side of a wall and right-click on one of them to remove the block that is between them."
+				""
+				""
+				"{image:kubejs:textures/quests/wall_piercer.png width:190 height:100 align:center}"
+			]
+			hide_until_deps_complete: false
+			id: "1BE7580AE542AD1A"
+			rewards: [{
+				id: "795B9FF63B49B930"
+				item: "kubejs:party_popper"
+				type: "item"
+			}]
+			subtitle: "Parry This!"
+			tasks: [{
+				count: 2L
+				id: "119B313DB024BF24"
+				item: { Count: 2, id: "kubejs:wall_destroyer" }
+				type: "item"
+			}]
+			title: "The Wall Piercer"
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["56A5BCD5589DA06C"]
+			description: ["Using the Prismarine Shards that drop from guardians you can generate Lapis Lazuli"]
+			icon: "minecraft:lapis_lazuli"
+			id: "020AD5745CA5C81F"
+			rewards: [{
+				id: "0B0ADAE19F19B07F"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			subtitle: "Renewable Lapis"
+			tasks: [
+				{
+					id: "1F18A545D38974D5"
+					item: "thermal:device_rock_gen"
+					type: "item"
+				}
+				{
+					id: "6593490D40BD6E1F"
+					item: "minecraft:prismarine"
+					type: "item"
+				}
+				{
+					id: "6D764F88B19C06F7"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			title: "Blue Science"
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["56A5BCD5589DA06C"]
+			description: [
+				"There exists a pool filled with Molten Silver within the Poolrooms. "
+				""
+				"Such an amazing natural resource must simply be found and exploited as soon as possible."
+			]
+			id: "296793FF672F9B7F"
+			rewards: [{
+				id: "2118041D57B9C9C2"
+				item: "kubejs:party_popper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7793DFA644229F2F"
+				item: "tconstruct:molten_silver_bucket"
+				type: "item"
+			}]
+			title: "Pools of Molten Silver"
+			x: 2.5d
+			y: 8.5d
+		}
+	]
+	title: "Chapter 3b"
+}

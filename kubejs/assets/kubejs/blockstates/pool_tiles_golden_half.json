@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [{
+      "model": "kubejs:block/pool_tiles_golden1", "weight": 10
+    },
+    {
+      "model": "kubejs:block/pool_tiles_golden2", "weight": 10
+    },
+    {
+      "model": "kubejs:block/pool_tiles_golden3", "weight": 10
+    },
+    {
+      "model": "kubejs:block/pool_tiles_golden4", "weight": 10
+    },
+    {
+      "model": "kubejs:block/pool_tiles_golden5", "weight": 10
+    },
+    {
+      "model": "kubejs:block/pool_tiles_golden6", "weight": 10
+    }]
+  }
+}

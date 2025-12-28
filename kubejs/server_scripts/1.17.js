@@ -1,20 +1,6 @@
 ServerEvents.recipes(event => {
 
 	event.shaped(
-		'2x kubejs:wall_destroyer',
-		[ 
-		'CBC', 
-		'DAD',
-		'CEC'  
-		],{
-		  A: 'thermal:machine_frame',
-		  B: 'botania:lens_power',
-		  C: 'thermal:constantan_ingot',
-		  D: 'thermal:rf_coil',
-		  E: 'thermal:charge_bench'
-	})
-
-	event.shaped(
 		'immersiveengineering:gunpart_barrel',
 		[ 
 		' A ', 

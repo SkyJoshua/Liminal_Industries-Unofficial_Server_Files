@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "waterlogged=false": {
+            "model": "kubejs:block/pool_tiles_warn"
+        },
+        "waterlogged=true": {
+            "model": "kubejs:block/pool_tiles_warn_water"
+        }
+    }
+}

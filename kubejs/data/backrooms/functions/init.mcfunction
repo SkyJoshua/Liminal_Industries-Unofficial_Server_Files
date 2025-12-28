@@ -17,5 +17,6 @@ scoreboard objectives add sound dummy
 scoreboard objectives add ambience dummy
 scoreboard objectives add y dummy
 scoreboard objectives add level dummy
+scoreboard objectives add first_pool_gen dummy
 
 scoreboard players set generation generation 1
