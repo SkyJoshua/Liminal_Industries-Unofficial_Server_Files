@@ -138,6 +138,8 @@ ServerEvents.tags('item', event => {
 	event.add('backrooms:chairs', 'lipoolroomsadditions:oak_pool_chair')
 	event.add('backrooms:chairs', 'lipoolroomsadditions:oil_treated_oak_pool_chair')
 	event.add('backrooms:chairs', 'lipoolroomsadditions:white_painted_oak_pool_chair')
+
+	event.add('backrooms:chairs', /^refurbished_furniture:.+_chair$/)
 	event.add('backrooms:wooden_furniture', '#backrooms:chairs')
 
 	event.add('backrooms:tables', /^refurbished_furniture:.+_table$/)

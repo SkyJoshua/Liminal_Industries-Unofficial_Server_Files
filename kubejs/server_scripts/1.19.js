@@ -39,6 +39,7 @@ ServerEvents.recipes(event => {
 
     event.remove({id: 'create:splashing/soul_sand'})
     event.remove({id: 'create:haunting/lapis_recycling'})
+    event.remove({output: 'blockofsky:sky_block'})
 
   	event.recipes.create.crushing(Item.of('minecraft:quartz').withChance(0.05), 'kubejs:pool_tile')
 	event.smelting('minecraft:gold_nugget', 'kubejs:pool_tile_golden')
